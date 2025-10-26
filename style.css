@@ -1,0 +1,143 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  color: #fff;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+header h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #00e0ff;
+}
+
+/* Sections */
+section {
+  padding: 80px 60px;
+  text-align: center;
+  min-height: 80vh;
+}
+
+#home h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, #00e0ff, #00ff95);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#home p {
+  font-size: 1.2rem;
+  color: #e0e0e0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* About Section */
+#about {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 60px;
+  margin-top: 40px;
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #cfd9df;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Contact Section */
+#contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  outline: none;
+  color: #fff;
+  margin-bottom: 20px;
+  padding: 12px 15px;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+button {
+  background: linear-gradient(90deg, #00e0ff, #00ff95);
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  background: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
+
+/* Message */
+.hidden {
+  display: none;
+}
+
+#formResponse {
+  margin-top: 20px;
+  color: #00ff95;
+  font-weight: 500;
+}
